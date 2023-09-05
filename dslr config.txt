@@ -1,0 +1,999 @@
+  _ Possibilities:
+
+  * ISO Auto -- isoauto
+   - Setted: On
+    _ Possibilities:
+
+  * Auto ISO -- autoiso
+   - Setted: Off
+    _ Possibilities:
+
+  * WhiteBalance -- whitebalance
+   - Setted: Automatic
+    _ Possibilities:
+
+  * Color Space -- colorspace
+   - Setted: sRGB
+    _ Possibilities:
+
+
+# Capture Settings capturesettings
+  * Movie Resolution -- moviequality
+   - Setted: 1920x1080; 30p
+    _ Possibilities:
+
+  * Movie Quality -- moviequality2
+   - Setted: High
+    _ Possibilities:
+
+  * Exposure Program -- expprogram
+   - Setted: M
+    _ Possibilities:
+
+  * Minimum Shutter Speed -- minimumshutterspeed
+   - Setted: Auto
+    _ Possibilities:
+
+  * Continuous Shooting Speed Slow -- shootingspeed
+   - Setted: 5 fps
+    _ Possibilities:
+
+  * ISO Auto Hi Limit -- isoautohilimit
+   - Setted: 6400
+    _ Possibilities:
+
+  * Flash Sync. Speed -- flashsyncspeed
+   - Setted: 1/250s
+    _ Possibilities:
+
+  * Focus Metering -- focusmetering
+   - Setted: Single Area
+    _ Possibilities:
+
+  * Active D-Lighting -- dlighting
+   - Setted: Auto
+    _ Possibilities:
+
+  * High ISO Noise Reduction -- highisonr
+   - Setted: High
+    _ Possibilities:
+
+  * Maximum continuous release -- maximumcontinousrelease
+
+  * Raw Compression -- rawcompression
+   - Setted: Lossless
+    _ Possibilities:
+
+  * Flash Shutter Speed -- flashshutterspeed
+   - Setted: 1/60s
+    _ Possibilities:
+
+  * Live View Size -- liveviewsize
+   - Setted: VGA
+    _ Possibilities:
+
+  * Long Exp Noise Reduction -- longexpnr
+   - Setted: Off
+    _ Possibilities:
+
+  * Assist Light -- assistlight
+   - Setted: On
+    _ Possibilities:
+
+  * Exposure Compensation -- exposurecompensation
+   - Setted: 0
+    _ Possibilities:
+
+  * Movie Exposure Compensation -- movieexposurecompensation
+   - Setted: 1
+    _ Possibilities:
+
+  * Flash Mode -- flashmode
+   - Setted: Auto
+    _ Possibilities:
+
+  * Nikon Flash Mode -- nikonflashmode
+   - Setted: iTTL
+    _ Possibilities:
+
+  * AF Area Illumination -- af-area-illumination
+   - Setted: On
+    _ Possibilities:
+
+  * F-Number -- f-number
+   - Setted: f/9
+    _ Possibilities:
+
+  * Movie F-Number -- movief-number
+
+  * Flexible Program -- flexibleprogram
+
+  * Image Quality -- imagequality
+   - Setted: JPEG Fine
+    _ Possibilities:
+
+  * Focal Length -- focallength
+
+  * Focus Mode -- focusmode
+   - Setted: AF-A
+    _ Possibilities:
+
+  * Focus Mode 2 -- focusmode2
+   - Setted: AF-A
+    _ Possibilities:
+
+  * Effect Mode -- effectmode
+   - Setted: Color sketch
+    _ Possibilities:
+
+  * User Mode -- usermode
+   - Setted: P
+    _ Possibilities:
+
+  * Scene Mode -- scenemode
+   - Setted: Portrait
+    _ Possibilities:
+
+  * HDR Mode -- hdrmode
+   - Setted: Off
+    _ Possibilities:
+
+  * HDR Smoothing -- hdrsmoothing
+   - Setted: Auto
+    _ Possibilities:
+
+  * Still Capture Mode -- capturemode
+   - Setted: Continuous Low Speed
+    _ Possibilities:
+
+  * Exposure Metering Mode -- exposuremetermode
+   - Setted: Center Weighted
+    _ Possibilities:
+
+  * Shutter Speed -- shutterspeed
+   - Setted: 0.0062s
+    _ Possibilities:
+
+  * Shutter Speed 2 -- shutterspeed2
+   - Setted: 1/160
+    _ Possibilities:
+
+  * Movie Shutter Speed 2 -- movieshutterspeed
+   - Setted: 1/30
+    _ Possibilities:
+
+  * Focus Area Wrap -- focusareawrap
+   - Setted: Off
+    _ Possibilities:
+
+  * Exposure Delay Mode -- exposuredelaymode
+   - Setted: On
+    _ Possibilities:
+
+  * Live View AF Mode -- liveviewafmode
+   - Setted: Wide-area AF
+    _ Possibilities:
+
+  * Live View AF Focus -- liveviewaffocus
+   - Setted: Single-servo AF
+    _ Possibilities:
+
+  * Live View Image Zoom Ratio -- liveviewimagezoomratio
+   - Setted: Entire Display
+    _ Possibilities:
+
+  * File Number Sequencing -- filenrsequencing
+   - Setted: On
+    _ Possibilities:
+
+  * Image Rotation Flag -- imagerotationflag
+   - Setted: Off
+    _ Possibilities:
+
+  * Release without CF card -- nocfcardrelease
+   - Setted: Off
+    _ Possibilities:
+
+  * Auto Focus Area -- autofocusarea
+   - Setted: Top
+    _ Possibilities:
+
+  * Flash Exposure Compensation -- flashexposurecompensation
+
+  * Bracketing -- bracketing
+   - Setted: Off
+    _ Possibilities:
+
+  * EV Step -- evstep
+   - Setted: 1/3
+    _ Possibilities:
+
+  * Bracket Set -- bracketset
+   - Setted: AE only
+    _ Possibilities:
+
+  * Bracket Order -- bracketorder
+   - Setted: MTR > Under
+    _ Possibilities:
+
+  * AE Bracketing Step -- aebracketingstep
+   - Setted: 1/3 EV
+    _ Possibilities:
+
+  * WB Bracketing Step -- wbbracketingstep
+   - Setted: 1 EV
+    _ Possibilities:
+
+  * AE Bracketing Pattern -- aebracketingpattern
+   - Setted: 3 images (normal, under and over)
+    _ Possibilities:
+
+  * WB Bracketing Pattern -- wbbracketingpattern
+   - Setted: 3 images (normal and 2 unders)
+    _ Possibilities:
+
+  * AE Bracketing Count -- aebracketingcount
+
+  * ADL Bracketing Pattern -- adlbracketingpattern
+   - Setted: 2 shots (Off -> User setting)
+    _ Possibilities:
+
+  * WB Preset Comment 1 -- wbpresetcomment1
+   - Setted:                                     
+    _ Possibilities:
+
+  * WB Preset Comment 2 -- wbpresetcomment2
+   - Setted:                                     
+    _ Possibilities:
+
+  * WB Preset Comment 3 -- wbpresetcomment3
+   - Setted:                                     
+    _ Possibilities:
+
+  * WB Preset Comment 4 -- wbpresetcomment4
+   - Setted:                                     
+    _ Possibilities:
+
+  * WB Preset Comment 6 -- wbpresetcomment6
+   - Setted:                                     
+    _ Possibilities:
+
+  * Burst Number -- burstnumber
+
+  * Auto White Balance Bias -- autowhitebias
+
+  * Tungsten White Balance Bias -- tungstenwhitebias
+
+  * Fluorescent White Balance Bias -- flourescentwhitebias
+
+  * Daylight White Balance Bias -- daylightwhitebias
+
+  * Flash White Balance Bias -- flashwhitebias
+
+  * Cloudy White Balance Bias -- cloudywhitebias
+
+  * Shady White Balance Bias -- shadewhitebias
+
+  * White Balance Bias Preset Nr -- whitebiaspresetno
+   - Setted: 1
+    _ Possibilities:
+
+  * White Balance Bias Preset 1 -- whitebiaspreset1
+   - Setted: 40042905
+    _ Possibilities:
+
+  * White Balance Bias Preset 2 -- whitebiaspreset2
+   - Setted: 40042905
+    _ Possibilities:
+
+  * White Balance Bias Preset 3 -- whitebiaspreset3
+   - Setted: 40042905
+    _ Possibilities:
+
+  * White Balance Bias Preset 4 -- whitebiaspreset4
+   - Setted: 40042905
+    _ Possibilities:
+
+  * Center Weight Area -- centerweightsize
+   - Setted: 8 mm
+    _ Possibilities:
+
+  * Remote Mode -- remotemode
+   - Setted: Unknown value 0003
+    _ Possibilities:
+
+  * Application Mode -- applicationmode
+   - Setted: Application Mode 0
+    _ Possibilities:
+
+  * Microphone -- microphone
+   - Setted: Auto sensitivity
+    _ Possibilities:
+
+  * Auto Distortion Control -- autodistortioncontrol
+   - Setted: On
+    _ Possibilities:
+
+
+# Other PTP Device Properties other
+  * Battery Level -- 5001
+   - Setted: 80
+    _ Possibilities:
+
+  * Image Size -- 5003
+   - Setted: 6000x4000
+    _ Possibilities:
+
+  * Compression Setting -- 5004
+   - Setted: 2
+    _ Possibilities:
+
+  * White Balance -- 5005
+   - Setted: 2
+    _ Possibilities:
+
+  * F-Number -- 5007
+   - Setted: 900
+    _ Possibilities:
+
+  * Focal Length -- 5008
+
+  * Focus Mode -- 500a
+   - Setted: 32786
+    _ Possibilities:
+
+  * Exposure Metering Mode -- 500b
+   - Setted: 2
+    _ Possibilities:
+
+  * Flash Mode -- 500c
+   - Setted: 32784
+    _ Possibilities:
+
+  * Exposure Time -- 500d
+   - Setted: 62
+    _ Possibilities:
+
+  * Exposure Program Mode -- 500e
+   - Setted: 1
+    _ Possibilities:
+
+  * Exposure Index (film speed ISO) -- 500f
+   - Setted: 160
+    _ Possibilities:
+
+  * Exposure Bias Compensation -- 5010
+   - Setted: 0
+    _ Possibilities:
+
+  * Date & Time -- 5011
+   - Setted: 20230903T203402
+    _ Possibilities:
+
+  * Still Capture Mode -- 5013
+   - Setted: 32784
+    _ Possibilities:
+
+  * Burst Number -- 5018
+   - Setted: 1
+    _ Possibilities:
+
+  * Focus Metering Mode -- 501c
+   - Setted: 32784
+    _ Possibilities:
+
+  * Artist -- 501e
+   - Setted:                                     
+    _ Possibilities:
+
+  * Copyright Info -- 501f
+   - Setted:                                                       
+    _ Possibilities:
+
+  * UseDeviceStageFlag -- d303
+   - Setted: 1
+    _ Possibilities:
+
+  * PTP Property 0xd406 -- d406
+   - Setted: Windows/6.0.5330.0 MTPClassDriver/6.0.5330.0
+    _ Possibilities:
+
+  * PTP Property 0xd407 -- d407
+   - Setted: 1
+    _ Possibilities:
+
+  * Reset Bank 0 -- d015
+   - Setted: 0
+    _ Possibilities:
+
+  * Raw Compression -- d016
+   - Setted: 0
+    _ Possibilities:
+
+  * Auto White Balance Bias -- d017
+
+  * Tungsten White Balance Bias -- d018
+
+  * Fluorescent White Balance Bias -- d019
+
+  * Daylight White Balance Bias -- d01a
+
+  * Flash White Balance Bias -- d01b
+
+  * Cloudy White Balance Bias -- d01c
+
+  * Shady White Balance Bias -- d01d
+
+  * White Balance Colour Temperature -- d01e
+   - Setted: 20
+    _ Possibilities:
+
+  * White Balance Preset Number -- d01f
+   - Setted: 1
+    _ Possibilities:
+
+  * White Balance Preset Name 1 -- d021
+   - Setted:                                     
+    _ Possibilities:
+
+  * White Balance Preset Name 2 -- d022
+   - Setted:                                     
+    _ Possibilities:
+
+  * White Balance Preset Name 3 -- d023
+   - Setted:                                     
+    _ Possibilities:
+
+  * White Balance Preset Name 4 -- d024
+   - Setted:                                     
+    _ Possibilities:
+
+  * 1_Mode -- d038
+   - Setted:                                     
+    _ Possibilities:
+
+  * WhiteBalancePresetName6 -- d039
+   - Setted:                                     
+    _ Possibilities:
+
+  * White Balance Preset Value 1 -- d026
+   - Setted: 40042905
+    _ Possibilities:
+
+  * White Balance Preset Value 2 -- d027
+   - Setted: 40042905
+    _ Possibilities:
+
+  * White Balance Preset Value 3 -- d028
+   - Setted: 40042905
+    _ Possibilities:
+
+  * White Balance Preset Value 4 -- d029
+   - Setted: 40042905
+    _ Possibilities:
+
+  * WhiteBalancePresetValue5 -- d03e
+   - Setted: 40042905
+    _ Possibilities:
+
+  * WhiteBalancePresetValue6 -- d03f
+   - Setted: 40042905
+    _ Possibilities:
+
+  * Lens Focal Length (Non CPU) -- d02e
+   - Setted: 0
+    _ Possibilities:
+
+  * Lens Maximum Aperture (Non CPU) -- d02f
+   - Setted: 0
+    _ Possibilities:
+
+  * Shooting Mode -- d030
+   - Setted: 0
+    _ Possibilities:
+
+  * JPEG Compression Policy -- d031
+   - Setted: 1
+    _ Possibilities:
+
+  * Color Space -- d032
+   - Setted: 0
+    _ Possibilities:
+
+  * Flicker Reduction -- d034
+   - Setted: 2
+    _ Possibilities:
+
+  * Remote Mode -- d035
+   - Setted: 3
+    _ Possibilities:
+
+  * Effect Mode -- d037
+   - Setted: 1
+    _ Possibilities:
+
+  * PTP_DPC_NIKON_A2AFSModePriority -- d049
+   - Setted: 0
+    _ Possibilities:
+
+  * Reset Menu Bank -- d045
+   - Setted: 0
+    _ Possibilities:
+
+  * PTP_DPC_NIKON_A1AFCModePriority -- d048
+   - Setted: 1
+    _ Possibilities:
+
+  * Focus Area Wrap -- d04f
+   - Setted: 0
+    _ Possibilities:
+
+  * AF Lock On -- d051
+   - Setted: 5
+    _ Possibilities:
+
+  * Enable Copyright -- d053
+   - Setted: 0
+    _ Possibilities:
+
+  * Auto ISO -- d054
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure ISO Step -- d055
+   - Setted: 0
+    _ Possibilities:
+
+  * Centre Weight Area -- d059
+   - Setted: 1
+    _ Possibilities:
+
+  * Exposure Step -- d056
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Base Matrix -- d05a
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Base Center -- d05b
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Base Spot -- d05c
+   - Setted: 0
+    _ Possibilities:
+
+  * Live View AF Area -- d05d
+   - Setted: 1
+    _ Possibilities:
+
+  * Live View AF Focus -- d061
+   - Setted: 0
+    _ Possibilities:
+
+  * Angle Level -- d067
+   - Setted: 64140
+    _ Possibilities:
+
+  * Shooting Speed -- d068
+   - Setted: 1
+    _ Possibilities:
+
+  * Maximum Shots -- d069
+   - Setted: 100
+    _ Possibilities:
+
+  * Exposure delay mode -- d06a
+   - Setted: 3
+    _ Possibilities:
+
+  * Long Exposure Noise Reduction -- d06b
+   - Setted: 0
+    _ Possibilities:
+
+  * File Number Sequencing -- d06c
+   - Setted: 1
+    _ Possibilities:
+
+  * High ISO noise reduction -- d070
+   - Setted: 3
+    _ Possibilities:
+
+  * Artist Name -- d072
+   - Setted:                                     
+    _ Possibilities:
+
+  * Copyright Information -- d073
+   - Setted:                                                       
+    _ Possibilities:
+
+  * Flash Sync. Speed -- d074
+   - Setted: 2
+    _ Possibilities:
+
+  * Flash Shutter Speed -- d075
+   - Setted: 0
+    _ Possibilities:
+
+  * Bracket Set -- d078
+   - Setted: 1
+    _ Possibilities:
+
+  * Bracket Order -- d07a
+   - Setted: 0
+    _ Possibilities:
+
+  * Aperture Setting -- d087
+   - Setted: 0
+    _ Possibilities:
+
+  * No CF Card Release -- d08a
+   - Setted: 0
+    _ Possibilities:
+
+  * AF Area Point -- d08d
+   - Setted: 1
+    _ Possibilities:
+
+  * Clean Image Sensor -- d08f
+   - Setted: 3
+    _ Possibilities:
+
+  * Image Comment String -- d090
+   - Setted:                                     
+    _ Possibilities:
+
+  * Image Comment Enable -- d091
+   - Setted: 0
+    _ Possibilities:
+
+  * Image Rotation -- d092
+   - Setted: 0
+    _ Possibilities:
+
+  * Manual Set Lens Number -- d093
+   - Setted: 0
+    _ Possibilities:
+
+  * Movie Screen Size -- d0a0
+   - Setted: 2
+    _ Possibilities:
+
+  * MovRecordMicrophoneLevelValue -- d0a8
+   - Setted: 15
+    _ Possibilities:
+
+  * Movie Card Slot -- d0a3
+   - Setted: 0
+    _ Possibilities:
+
+  * MovRecProhibitCondition -- d0a4
+   - Setted: 16384
+    _ Possibilities:
+
+  * Movie Quality -- d0a7
+   - Setted: 1
+    _ Possibilities:
+
+  * Movie Microphone -- d0a2
+   - Setted: 0
+    _ Possibilities:
+
+  * Bracketing Enable -- d0c0
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Bracketing Step -- d0c1
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Bracketing Program -- d0c2
+   - Setted: 4
+    _ Possibilities:
+
+  * Auto Exposure Bracket Count -- d0c3
+   - Setted: 1
+    _ Possibilities:
+
+  * White Balance Bracket Step -- d0c4
+   - Setted: 0
+    _ Possibilities:
+
+  * White Balance Bracket Program -- d0c5
+   - Setted: 2
+    _ Possibilities:
+
+  * ADLBracketingPattern -- d0c6
+   - Setted: 0
+    _ Possibilities:
+
+  * Lens ID -- d0e0
+   - Setted: 162
+    _ Possibilities:
+
+  * Lens Sort -- d0e1
+   - Setted: 1
+    _ Possibilities:
+
+  * Lens Type -- d0e2
+   - Setted: 47
+    _ Possibilities:
+
+  * Min. Focal Length -- d0e3
+   - Setted: 1800
+    _ Possibilities:
+
+  * Max. Focal Length -- d0e4
+   - Setted: 5500
+    _ Possibilities:
+
+  * Max. Aperture at Min. Focal Length -- d0e5
+   - Setted: 350
+    _ Possibilities:
+
+  * Max. Aperture at Max. Focal Length -- d0e6
+   - Setted: 560
+    _ Possibilities:
+
+  * Auto Distortion Control -- d0f8
+   - Setted: 1
+    _ Possibilities:
+
+  * Scene Mode -- d0f9
+   - Setted: 13
+    _ Possibilities:
+
+  * UserMode -- d0fc
+   - Setted: 19
+    _ Possibilities:
+
+  * SceneMode2 -- d0fd
+   - Setted: 19
+    _ Possibilities:
+
+  * Nikon Exposure Time -- d100
+   - Setted: 65696
+    _ Possibilities:
+
+  * AC Power -- d101
+   - Setted: 0
+    _ Possibilities:
+
+  * Warning Status -- d102
+   - Setted: 0
+    _ Possibilities:
+
+  * AF Locked -- d104
+   - Setted: 0
+    _ Possibilities:
+
+  * AE Locked -- d105
+   - Setted: 0
+    _ Possibilities:
+
+  * FV Locked -- d106
+   - Setted: 0
+    _ Possibilities:
+
+  * Active AF Sensor -- d108
+   - Setted: 1
+    _ Possibilities:
+
+  * Flexible Program -- d109
+
+  * Recording Media -- d10b
+   - Setted: 0
+    _ Possibilities:
+
+  * Camera Orientation -- d10e
+   - Setted: 0
+    _ Possibilities:
+
+  * External Flash Attached -- d120
+   - Setted: 0
+    _ Possibilities:
+
+  * External Flash Status -- d121
+   - Setted: 0
+    _ Possibilities:
+
+  * External Flash Sort -- d122
+   - Setted: 0
+    _ Possibilities:
+
+  * External Flash Compensation -- d124
+   - Setted: 0
+    _ Possibilities:
+
+  * External Flash Mode -- d125
+   - Setted: 0
+    _ Possibilities:
+
+  * Flash Exposure Compensation -- d126
+
+  * HDR Mode -- d130
+   - Setted: 0
+    _ Possibilities:
+
+  * HDR Smoothing -- d132
+   - Setted: 3
+    _ Possibilities:
+
+  * WBAutoType -- d141
+   - Setted: 0
+    _ Possibilities:
+
+  * Slot 2 Save Mode -- d148
+   - Setted: 0
+    _ Possibilities:
+
+  * Raw Bit Mode -- d149
+   - Setted: 0
+    _ Possibilities:
+
+  * Active D-Lighting -- d14e
+   - Setted: 5
+    _ Possibilities:
+
+  * Fluorescent Type -- d14f
+   - Setted: 3
+    _ Possibilities:
+
+  * Tune Colour Temperature -- d150
+
+  * Tune Preset 1 -- d152
+
+  * Tune Preset 2 -- d153
+
+  * Tune Preset 3 -- d154
+
+  * Tune Preset 4 -- d155
+
+  * WhiteBalanceTunePreset5 -- d03a
+
+  * WhiteBalanceTunePreset6 -- d03b
+
+  * WBPresetProtect1 -- d158
+   - Setted: 0
+    _ Possibilities:
+
+  * WBPresetProtect2 -- d159
+   - Setted: 0
+    _ Possibilities:
+
+  * WBPresetProtect3 -- d15a
+   - Setted: 0
+    _ Possibilities:
+
+  * WBPresetProtect4 -- d15c
+   - Setted: 0
+    _ Possibilities:
+
+  * WhiteBalancePresetProtect5 -- d03c
+   - Setted: 0
+    _ Possibilities:
+
+  * WhiteBalancePresetProtect6 -- d03d
+   - Setted: 0
+    _ Possibilities:
+
+  * WhiteBalanceReset -- d15d
+   - Setted: 0
+    _ Possibilities:
+
+  * Autofocus Mode -- d161
+   - Setted: 2
+    _ Possibilities:
+
+  * AF Assist Lamp -- d163
+   - Setted: 1
+    _ Possibilities:
+
+  * Auto ISO P/A/DVP Setting -- d164
+   - Setted: 27
+    _ Possibilities:
+
+  * AF Area Illumination -- d166
+   - Setted: 2
+    _ Possibilities:
+
+  * Flash Mode -- d167
+   - Setted: 0
+    _ Possibilities:
+
+  * ISO Auto -- d16a
+   - Setted: 1
+    _ Possibilities:
+
+  * ISO Auto High Limit -- d183
+   - Setted: 20
+    _ Possibilities:
+
+  * MovieReleaseButton -- d197
+   - Setted: 0
+    _ Possibilities:
+
+  * Live View Status -- d1a2
+   - Setted: 0
+    _ Possibilities:
+
+  * Live View Image Zoom Ratio -- d1a3
+   - Setted: 0
+    _ Possibilities:
+
+  * Live View Prohibit Condition -- d1a4
+   - Setted: 0
+    _ Possibilities:
+
+  * LiveViewSelector -- d1a6
+   - Setted: 0
+    _ Possibilities:
+
+  * MovieShutterSpeed -- d1a8
+   - Setted: 65566
+    _ Possibilities:
+
+  * MovieFNumber -- d1a9
+   - Setted: 100
+    _ Possibilities:
+
+  * MovieISO -- d1aa
+   - Setted: 100
+    _ Possibilities:
+
+  * MovieExposureBiasCompensation -- d1ab
+   - Setted: 1000
+    _ Possibilities:
+
+  * LiveViewMovieMode -- d1ac
+   - Setted: 2
+    _ Possibilities:
+
+  * Exposure Display Status -- d1b0
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Indicate Status -- d1b1
+   - Setted: -60
+    _ Possibilities:
+
+  * Info Display Error Status -- d1b2
+   - Setted: 0
+    _ Possibilities:
+
+  * Exposure Indicate Lightup -- d1b3
+   - Setted: 0
+    _ Possibilities:
+
+  * ContinousShootingCount -- d1b4
+   - Setted: 5
+    _ Possibilities:
+
+  * Flash Open -- d1c0
+   - Setted: 0
+    _ Possibilities:
+
+  * Flash Charged -- d1c1
+   - Setted: 0
+    _ Possibilities:
+
+  * ApplicationMode -- d1f0
+   - Setted: 0
+    _ Possibilities:
+
+  * ExposureRemaining -- d1f1
+
+  * ISOAutoShutterCorrectionTime -- d1f4
+   - Setted: 0
+    _ Possibilities:
+
+  * Active Pic Ctrl Item -- d200
+   - Setted: 1
+    _ Possibilities:
+
+  * Change Pic Ctrl Item -- d201
+   - Setted: 0
+    _ Possibilities:
+
+
