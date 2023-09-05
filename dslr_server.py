@@ -40,8 +40,26 @@ def index():
 
 @app.route('/settings',methods=['POST'])
 def change_settings():
+    capt_set = CaptureSettings()
     if request.method == 'POST':
-        print(request.form)
+        #handling DSLR setting post request
+        autoiso = request.form.get('autoiso')
+        capt_set.set_auto_iso(autoiso)
+        isospeed = request.form.get('isospeed')
+        capt_set.set_iso_speed(isospeed)
+        isoautohilimit = request.form.get('isoautohilimit')
+        capt_set.set_iso_auto_hi_limit(isoautohilimit)
+        whitebalance = request.form.get('whitebalance')
+        capt_set.set_white_balance(whitebalance)
+        exposurecomp = request.form.get('exposurecomp')
+        capt_set.set_exp_compensation(exposurecomp)
+        shutterspeed = request.form.get('shutterspeed')
+        capt_set.set_shutter_speed(shutterspeed)
+        fractionshutterspeed = request.form.get('fractionshutterspeed')
+        capt_set.set_fraction_shutter_speed(fractionshutterspeed)
+        fnumber = request.form.get('fnumber')
+        capt_set.set_f_number(fnumber)
+        
         return redirect(url_for('index'))
     else:
         print('Method is not post')

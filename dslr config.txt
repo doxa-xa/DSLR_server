@@ -997,3 +997,13 @@
     _ Possibilities:
 
 
+
+ImmutableMultiDict([
+  ('autoiso', 'On'),
+  ('isospeed', '160'),
+  ('isoautohilimit', '6400'),
+  ('whitebalance', 'Automatic'),
+  ('exposurecomp', '0'),
+  ('shutterspeed', '0.0062s'),
+  ('fractionshutterspeed', '1/160'),
+  ('fnumber', 'f/9')])
