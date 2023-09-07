@@ -1,4 +1,5 @@
 import gphoto2 as gp
+import os
 
 #enums for the different settings
 iso_auto_hi_limit = 5
@@ -50,7 +51,7 @@ class CaptureSettings:
 def capture_image():
 	camera = gp.Camera()
 	photo = camera.capture(gp.GP_CAPTURE_IMAGE)
-	dirpath = '/home/doxa/Documents/Python'
+	dirpath = os.path.abspath(curdir)
 	pic_path = os.path.join(dirpath,photo.name)
 	camera_file = camera.file_get(photo.folder,photo.name, gp.GP_FILE_TYPE_NORMAL)
 	camera_file.save(pic_path)
