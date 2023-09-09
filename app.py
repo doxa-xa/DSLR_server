@@ -5,7 +5,7 @@ from webcam import gen_frames
 
 app = Flask(__name__)
 
-web_cam = cv2.VideoCapture(0)
+web_cam = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 @app.route('/')
 def index():
@@ -21,9 +21,9 @@ def get_request(setting):
 	except gp.GPhoto2Error as err:
 		return json.dumps({"error" : err, "message" : "an error has occured"})
 		
-@app.route('/videofeed')
-def video_feed():
-	return Response(gen_frames(web_cam), mimetype='multipart/x-mixed-replace; boundary=frame')
+@app.route('/videofeed/<float:sensitivity>')
+def video_feed(sensitivity):
+	return Response(gen_frames(web_cam,sensitivity), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/status/<req>')
 def get_status(req):
