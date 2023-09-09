@@ -9,13 +9,17 @@ def mse(imgA,imgB):
     return mean_sq_err
 
 def gen_frames(camera,sensitivity):
-    ret, pframe = camera.read()
+    ret,pframe = camera.read()
     curr_err = []
-    curr_err.append(0.0)
+    curr_err.append(70.0)
     if not sensitivity:
          sensitivity = 3 
     if not camera.isOpened():
-        camera = cv2.VideoCapture(0)
+       camera = cv2.VideoCapture(0,cv2.CAP_DSHOW)
+       ret,pframe = camera.read()
+       curr_err = []
+       curr_err.append(0.0)
+       print("fuck!")
     while True:
         previous_frame = pframe[:]
         success, frame = camera.read()
@@ -26,9 +30,11 @@ def gen_frames(camera,sensitivity):
             previous = cv2.cvtColor(previous_frame,cv2.COLOR_BGR2GRAY)
             error = mse(current,previous)
             curr_err.append(error)
-            if curr_err is not None and curr_err[-2] - error > sensitivity:
-                    print(f'time: {time.datetime.now()} object detected')
+            if curr_err is not None and error - curr_err[-2] > sensitivity:
+                print(f'time: {time.datetime.now()} object detected')
+                if len(curr_err) > 4:
                     capture_image()
+                    break
             ret, buffer = cv2.imencode('.jpg',frame)
             frame = buffer.tobytes()
             yield(b'--frame\r\n'

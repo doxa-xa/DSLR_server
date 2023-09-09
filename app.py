@@ -5,7 +5,6 @@ from webcam import gen_frames
 
 app = Flask(__name__)
 
-web_cam = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 @app.route('/')
 def index():
@@ -23,6 +22,7 @@ def get_request(setting):
 		
 @app.route('/videofeed/<float:sensitivity>')
 def video_feed(sensitivity):
+	web_cam = cv2.VideoCapture(0)
 	return Response(gen_frames(web_cam,sensitivity), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/status/<req>')
@@ -70,4 +70,4 @@ def change_settings(item,value):
 		return json.dumps({"error" : err, "message" : "an error has occured"})
 		
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True, host='0.0.0.0')

@@ -44,20 +44,28 @@ class CaptureSettings:
 		menu_item_range = self.get_choices(menu_item)
 		for item in menu_item_range:
 			if value == item:
-				gp.check_result(gp.gp_widget_set_value(menu_item,value))
+				menu_item.set_value(value)
+				self.camera.set_config(master)
 				self.camera.exit()
 		return {"name" : menu_item.get_label(), "value":menu_item.get_value()}
 
 def capture_image():
 	camera = gp.Camera()
-	photo = camera.capture(gp.GP_CAPTURE_IMAGE)
-	dirpath = os.path.abspath(os.path.curdir)
-	pic_path = os.path.join(dirpath,photo.name)
-	camera_file = camera.file_get(photo.folder,photo.name, gp.GP_FILE_TYPE_NORMAL)
-	camera_file.save(pic_path)
-	camera.exit()
-	os.rename(pic_path, os.path.join(dirpath, f'{time.datetime.now()}.jpg'))
-
+	camera.init()
+	try:
+		photo = camera.capture(gp.GP_CAPTURE_IMAGE)
+		dirpath = os.path.abspath(os.path.curdir)
+		dirpath = os.path.join(dirpath,'static')
+		pic_path = os.path.join(dirpath,photo.name)
+		camera_file = camera.file_get(photo.folder,photo.name, gp.GP_FILE_TYPE_NORMAL)
+		camera_file.save(pic_path)
+		camera.exit()
+		date = time.datetime.now()
+		date_time = date.strftime("%d%m%Y_%H%M%S")
+		os.rename(pic_path, os.path.join(dirpath, f'{date_time}.jpg'))
+	except gp.GPhoto2Error as err:
+		print(str(err))
+		camera.exit()
 
 #capt_set = CaptureSettings(f_number)
 
