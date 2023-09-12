@@ -1,5 +1,10 @@
-import gphoto2 as gp
+try:
+	import gphoto2 as gp
+	from snap import capture
+except ImportError as err:
+	print('Working on windows no Gphoto2')
 import os, datetime as time
+
 
 #enums for the different settings
 iso_auto_hi_limit = 5
@@ -50,22 +55,7 @@ class CaptureSettings:
 		return {"name" : menu_item.get_label(), "value":menu_item.get_value()}
 
 def capture_image():
-	camera = gp.Camera()
-	camera.init()
-	try:
-		photo = camera.capture(gp.GP_CAPTURE_IMAGE)
-		dirpath = os.path.abspath(os.path.curdir)
-		dirpath = os.path.join(dirpath,'static')
-		pic_path = os.path.join(dirpath,photo.name)
-		camera_file = camera.file_get(photo.folder,photo.name, gp.GP_FILE_TYPE_NORMAL)
-		camera_file.save(pic_path)
-		camera.exit()
-		date = time.datetime.now()
-		date_time = date.strftime("%d%m%Y_%H%M%S")
-		os.rename(pic_path, os.path.join(dirpath, f'{date_time}.jpg'))
-	except gp.GPhoto2Error as err:
-		print(str(err))
-		camera.exit()
+	capture()
 
 #capt_set = CaptureSettings(f_number)
 

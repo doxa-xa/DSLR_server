@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="margin: 5%;">
+        {% for photo in folder %}
+            <img class="photo" src="static/{{photo}}" style="margin: 2%;" width="1024px" height="768px" alt="снимка">
+        {% endfor %}
+    </div>
+</body>
+</html>

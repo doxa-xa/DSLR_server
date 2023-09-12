@@ -1,6 +1,9 @@
 
 #file is used by the server to fetch the current DSLR and it vitals
-import gphoto2 as gp
+try:
+	import gphoto2 as gp
+except ImportError as err:
+	print('Working on windows ... no Gphoto2')
 
 camera = gp.Camera()
 
@@ -12,7 +15,7 @@ def get_status(camera):
 	status_items = status.count_children()
 	result = {}
 	for i in range(status_items):
-		result.update( { status.get_child(i).get_name() : status.get_child(i).get_value() } )
+		result.update( { status.get_child(i).get_name() : status.get_child(i).get_value(), "readonly": status.get_child(i).get_readonly() } )
 	return result
 
 #print(get_status(camera))
