@@ -9,7 +9,7 @@ from snap import capture
 
 
 def motion_detection():
-    video_capture = cv2.VideoCapture(0) # value (0) selects the devices default camera
+    video_capture = cv2.VideoCapture('http://127.0.0.1:3000/feed') # value (0) selects the devices default camera
     time.sleep(2)
 
     first_frame = None # instinate the first fame

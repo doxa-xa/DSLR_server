@@ -7,7 +7,7 @@ def capture():
 	print('Capture image')
 	file_path = camera.capture(gp.GP_CAPTURE_IMAGE)
 	print(f'Camera file path: {file_path.folder}/{file_path.name}')
-	target = path.join(path.abspath(path.curdir),file_path.name)
+	target = path.join(f'{path.abspath(path.curdir)}/static',file_path.name)
 	print(f'Copying image to {target}')
 	now = dt.datetime.now().strftime("%d%m%Y_%H%M%S%p")
 	camera_file = camera.file_get(file_path.folder, file_path.name, gp.GP_FILE_TYPE_NORMAL)
